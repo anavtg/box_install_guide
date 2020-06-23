@@ -36,6 +36,8 @@ endif::[]
 * GSM standard antenna 
 * LoRa standard antenna 
 
+image:images/box_v1_2/3.what_is_supplied.png[{twothird-width}]
+
 
 === Required material 
 
@@ -94,19 +96,19 @@ image::images/box_power_connector_wiring.png[{twothird-width}]
 
 * Connect the cable to the power supply.
 +
-image::images/box_power_full_wiring.png[{twothird-width}]
+image:images/box_v1_2/2.box_power_full_wiring.png[{twothird-width}]
 
 * Check that the "Power" LED is lit (steady green light).
 +
-image::images/box_power_led_on.png[{half-width}]
+image::images/box_v1_2/5.box_power_led_on.png{half-width}]
 
 * Wait for ten seconds: the "Heartbeat" LED flashes (green light).
 +
-image::images/box_heartbeat_blink.png[{half-width}]
+image::images/box_v1_2/6.box_heartbeat_blink.png{half-width}]
 
 * Wait for the GSM LED to flash; if the LED does not flash after a few minutes, see the GSM Antenna chapter.
 +
-image::images/box_gsm_led_blink.png[{half-width}]
+image::images/box_v1_2/26.box_gsm_led_blink.png[{half-width}]
 
 * Check that the Box appears on the console: the presence indicator of the Box changes from red to green.
 * If the Box appears on the console, it is functional; you can go to the connection step of the Box to the equipment and/or the network of the building.
@@ -118,7 +120,7 @@ The Box is supplied with a standard GSM antenna.
 
 * If the quality of the GSM signal is good: keep the original antenna installed on the Box.
 +
-image::images/box_gsm_antenna.png[{small}]
+image::images/box_v1_2/7.box_gsm_antenna.png[{small}]
 
 * If the signal quality is insufficient: move the original antenna out of the cabinet; use an RF extension cord with SMA connector, up to 2 meters, + 1 adhesive support to hold the antenna.
 * If the signal quality is still insufficient: use a high-gain antenna with a maximum of 10 meters of cable; this antenna can, for example, be moved to the outside or to the other floors to obtain a better signal quality. Please note that, beyond 15 meters of cable, the GSM signal is significantly weakened.
@@ -138,12 +140,12 @@ Connection:
 * Make sure to have an Ethernet cable
 * Connect the cable to the Ethernet port of the Box ETH1 or ETH2. 
 +
-image::images/box_ip_eth_plug.png[{half-width}]
+image::images/box_v1_2/12.box_ip_eth_plug.png{half-width}]
 
 * Connect the Box to the switch (IP network) on which the supervision PC/BMS server is connected.
 * Check that the ETH1 or ETH2 LED lights up.
 +
-image::images/box_ip_eth_led_on.png[{half-width}]
+image::images/box_v1_2/25.box_ip_both_eth_led_on.png[{half-width}]
 
 Configuration:
 
@@ -165,7 +167,7 @@ Connection:
 * Make sure to have an Ethernet cable.
 * Connect the cable to the Ethernet ports of the Box ETH1 or ETH2.
 +
-image::images/box_ip_eth_plug.png[{half-width}]
+image::images/box_v1_2/12.box_ip_eth_plug.png[{half-width}]
 
 * Connect the other end of the cable to the IP-852 server on the LON network.
 +
@@ -173,7 +175,7 @@ image::images/lon_ip_gateway_network.png[{twothird-width}]
 
 * Verify that the ETH1 or ETH2 LED lights up
 +
-image::images/box_ip_eth_led_on.png[{half-width}]
+image::images/box_v1_2/25.box_ip_both_eth_led_on.png[{half-width}]
 
 * Register the IP address of the Box on the IP-852 server of the LON network; the IP-852 server’s password is probably required.
 
@@ -196,7 +198,7 @@ image::images/lon_ft10_echelon_gateway.png[{half-width}]
 
 * Connect also this gateway to the LON FT10 network. 
 +
-image::images/lon_ft10_echelon_gateway_to_network.png[{twothird-width}]
+image::images/box_v1_2/9.lon_ft10_echelon_gateway.png[{twothird-width}]
 
 Information to get  in preparation for the configuration:
 
