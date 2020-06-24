@@ -132,7 +132,7 @@ image::images/{box_version}/box_gsm_antenna.png[{small}]
 * Obtenir au préalable si possible le schéma du ou des réseau(x) de communication de la GTB.
 * Identifier où et comment le serveur GTB est connecté au réseau du bâtiment.
 +
-image::images/common/bms-diagram-withtext-en.png[{twothird-width}]
+image::images/common/bms_diagram_withtext.png[{twothird-width}]
 
 === En cas de réseau IP (hors LON)
 
